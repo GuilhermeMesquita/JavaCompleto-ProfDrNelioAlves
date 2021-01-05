@@ -132,7 +132,22 @@ Lembrando que, por definição, fatorial de 0 é 1.*/
 					System.out.println("\nDivisor: " + i);
 				}
 			}
-		
+		/*Exercício 07
+Correção: https://github.com/acenelio/nivelamento-java/blob/master/src/uri1143.java
+Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N linhas, 
+começando de 1 até N. Para cada linha, mostrar o número da linha, depois o quadrado e o cubo do valor, conforme 
+exemplo.*/
+			
+			int numPos;
+			System.out.println("\n7. Digite um número inteiro positivo: ");
+			numPos = sc.nextInt();
+			
+			for(int i = 1; i<= numPos; i++){
+				System.out.printf("%.1f", (Math.pow(i, 1)));
+				System.out.printf("%.1f", (Math.pow(i, 2)));
+				System.out.printf("%.1f", (Math.pow(i, 3)));
+				System.out.print("\n");
+			}
 	}
 	
 
