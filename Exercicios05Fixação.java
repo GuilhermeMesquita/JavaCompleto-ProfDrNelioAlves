@@ -11,6 +11,10 @@ public class Exercicios05Fixação {
 		Exercicios05Employee emp = new Exercicios05Employee();
 		emp.employee();
 		emp.employeeIncrease();
+		
+		Exercicios05Student stu = new Exercicios05Student();
+		stu.Student();
+		
 	}
 
 }
